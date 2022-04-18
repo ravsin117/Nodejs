@@ -1,0 +1,6 @@
+// call stack -
+all functions register here when they execute
+//node api
+// callback queue 
+//event loop
+these concepts already in js notes by akshay saini

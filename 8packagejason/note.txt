@@ -1,0 +1,28 @@
+package json file -> keeps details of our project 
+(code related details )
+includes : 
+- version 
+- name 
+- git repo
+- packages in project 
+- commands etc
+
+npm -> node package manager (manages packages in js project )
+
+commands:
+npm init -> to generate package json file 
+
+#Imp---------------------
+if node module is deleted -> run npm install (all the dependencies are recorded in package.json therfore npm install automatically install those packages)
+
+
+
+
+
+
+
+
+
+
+
+

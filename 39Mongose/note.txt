@@ -1,0 +1,32 @@
+mongose -> npm package that connects nodejs with mongodb
+or its an object modeling tool to work in an asynch env .
+Mongoose supports both promises and callbacks.
+-> gives few advance options as compared with mongodb
+-> we did not had schema and model in mongodb
+let say we have id name price brand attribute in our collection , and we dont want any new attribute , this cant be stopped in mongodb but can stopped in mongoose  with the help of schemas
+
+Schema and model difference
+
+schemas - > validate database field in database 
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,49 @@
+Nodejs-not a language.
+this is a server environment.
+node js can connect with database.
+code and syntax is very similar to javascript
+but not exactly same.
+node js free open source.
+Node js use chrome's v8 engine to execute code.
+
+why -> 
+-node js used for mailing api
+-so we can connect same database with web app and mobile application 
+-node js is easy to understand who knows javascript
+-Node is superfasr for api
+-with node and javascript you can become full stack developer
+
+-javascript and node js same
+if we know js we can easily understand node 
+both not exactly same 
+can connect js to database
+node can connect with database
+nodejs can run on the server side 
+js is run on browser only.
+
+->client and server side
+client is requesitng side 
+server responding side
+
+node js developers makes api
+we can connect server with client
+-> can make api for web mobile app and ios
+
+
+Nodejs is async language
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

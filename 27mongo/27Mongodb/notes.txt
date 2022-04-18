@@ -1,0 +1,103 @@
+mongodb installation
+-> database(non sql database)
+
+Q->what is mongo db ?
+-non sql database (it doesnotnhave a structure)
+-data stored in collection ( in object form)
+-collection doesnt have rows and colms
+
+{
+    {
+        firstName:"ram",
+        lastName:"Sing",
+        age:23,
+        nationality:Indian,
+        address:{
+
+        }
+    },
+    {
+        firstName:"ram",
+        lastName:"Sing",
+        age:23,
+        nationality:Indian,
+        address:{
+
+        }
+    },
+    {
+        firstName:"ram",
+        lastName:"Sing",
+        age:23,
+        nationality:Indian,
+        address:{
+
+        }
+    },
+    {
+        firstName:"ram",
+        lastName:"Sing",
+        age:23,
+        nationality:Indian,
+        address:{
+
+        }
+    },
+    {
+        firstName:"ram",
+        lastName:"Sing",
+        age:23,
+        nationality:Indian,
+        address:{
+
+        }
+    },
+    {
+        firstName:"ram",
+        lastName:"Sing",
+        age:23,
+        nationality:Indian,
+        address:{
+
+        }
+    },
+}
+
+Comparision of SQL(Structured)and MongoDB(unstructured)
+->in sql there might be places where a particular tupple might have some entries missing/empty , but in mongo db its necessary that there will be all entries there in database.
+
+in form many fields are optional if we use sql to store data -> much portion of database in wasted therfore and in mongodb its not the case 
+
+
+creating databse named "youtube"
+use youtube
+
+creating collection
+d.createCollection('videos');
+
+deleting thte collection named videos
+db.videos.drop();
+
+deleting the databse we are in 
+db.dropDatabse()
+
+
+// performing crud operation in MongoDB
+crud operation
+
+inserting database in products collection
+db.products.insertOne({name:"Hari",brand:"Samsung",price:250,category:mobiles})
+
+// showing data in database
+db.products.find()
+
+updating data in A  collection named product
+db.products.updateOne({name:"Mukul"},{$set:{brand:'vivo'}})
+
+//deleting data from product collection
+db.products.deleteOne({brand:"iphone"})
+
+
+#Connecting MongoDB & NodeJS
+
+
