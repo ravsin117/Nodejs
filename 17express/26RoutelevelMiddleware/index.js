@@ -39,8 +39,6 @@ app.get("/Contact",reqFilter, (req, res) => {
 // const reqFilter = require('./middleware');
 //  then the same code that is above
 
-
-
 //apply middleware in the group of route 
 
 // const route = express.Router()

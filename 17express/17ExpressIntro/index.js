@@ -27,7 +27,7 @@ app.listen(5000);
 // first param -> route 
 // 2nd param -> callback function
 
-// send()-> sends a response
+// send()-> sends a response back to client
 
 // whenever we make changes in out script and we want to see changes refelected on page then we must re start the server again 
 // we can also run our script with nodemon instead of node then we wont have to restart the page again

@@ -138,8 +138,14 @@
 // })
 
 
+// destructuring array
+let user = ["ram",24,"delhi"];
+let [name,age,city] = user;
+console.log(name); //->ram is stored in name
+console.log(age)//-> 24
+console.log(city)//delhi
 
-
+let [name1,age2=34,city1] = user;// setting default in any value
 
 
 

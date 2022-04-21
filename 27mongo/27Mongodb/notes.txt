@@ -2,7 +2,7 @@ mongodb installation
 -> database(non sql database)
 
 Q->what is mongo db ?
--non sql database (it doesnotnhave a structure)
+-non sql database (it does not have a structure)
 -data stored in collection ( in object form)
 -collection doesnt have rows and colms
 
@@ -73,12 +73,12 @@ creating databse named "youtube"
 use youtube
 
 creating collection
-d.createCollection('videos');
+db.createCollection('videos');
 
-deleting thte collection named videos
+deleting the collection named videos
 db.videos.drop();
 
-deleting the databse we are in 
+deleting the database we are in 
 db.dropDatabse()
 
 

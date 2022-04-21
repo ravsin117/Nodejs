@@ -3,7 +3,7 @@
 
 // static pages -> as the page we MADE AS IT IS IT WILL BE DISPLAYED .
 //dynamic page -> is connected to a backend and is dependent for data on dynamic page only
-//ejs-> one of the tempklate engine (widely used )
+//ejs-> one of the template engine (widely used )
 
 const express = require('express')
 const path = require('path')

@@ -26,10 +26,16 @@ sum1("ram",30,9)
 // for(let i of arr){
 //     console.log(i)
 // }   // of -> i directly gives values of arr
-// in -> i means index 
+// in -> in means index 
 
-//imp -> fn(...args,name) <- wrong   , fn(name,..args)<- right
-// rest operator must be last formal parameter
+//IMP -> fn(...args,name) <- wrong   , 
+// fn(name,..args)<- correct as rest operator must be last formal parameter
+
+// rest operator is always used at the time function defination
+// multiple incoming values stored to an array
+
+// spread operator is always used in function calling statement 
+// array converted to multiple values here
 
 
 
