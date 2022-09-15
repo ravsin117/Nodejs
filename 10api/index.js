@@ -2,6 +2,7 @@ const http = require('http');
 const data = require('./data')
 
 http.createServer((req,res)=>{
+    
     res.writeHead(200,{'Content-Type':'application\json'});
     res.write(JSON.stringify(data));
     res.end();
@@ -14,10 +15,10 @@ http.createServer((req,res)=>{
  //writeHead -> 
 //  Sends a response header to the request. The status code is a 3-digit HTTP status code, like 404.
 
-// 201-> created 
+// 201 -> created 
 // 200 -> OK
 // 500 -> server error
-//404 
+// 404 -> error
 
 
 

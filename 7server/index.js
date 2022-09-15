@@ -5,7 +5,6 @@ const http = require('http') ;
 http.createServer((req,res)=>{ 
     res.write("<h1>hello this is Ravinder singh</h1>");
     res.end(); // must end response 
-    
 }).listen(4900); // creates server 
 
 //listens on aparticular port for 

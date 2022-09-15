@@ -4,6 +4,7 @@ console.log(process.argv);
 // console.log(arr[2])
 //process.argv returns an array in which in first element we have the address where nodejs is installed 2nd the place where current file we are in is present 
 // 3rd- any extra parameter after "node index.js"  
+
 // const fs = require('fs');
 // const input = process.argv;
 

@@ -28,16 +28,18 @@ in browser it is a part of console that is provided by browser
 //      }, 3000);
 //      console.log('hello');
 // }
-
 // x();
+
+
 // function x (){
 //     for(let i = 1; i<=5 ;i++){
 //         setTimeout(()=>{
-//             con sole.log(i);
+//             console.log(i);
 //         },i * 1000)
 //     }
 // }
 // x();
+
 
 // let a = 1;
 // setInterval(()=>{

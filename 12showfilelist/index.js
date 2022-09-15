@@ -6,7 +6,7 @@ console.warn(dirPath)
 
 // creating multiple files in a folder
 for(let i = 0 ; i< 5;i++){
-    fs.writeFileSync(dirPath+`/file${i}`,'data')
+    fs.writeFileSync(dirPath+`/file${i}`,'dummy data inserted')
 }
 
 // reading files directory

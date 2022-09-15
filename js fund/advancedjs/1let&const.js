@@ -1,7 +1,4 @@
 // // let and const introduced in es6
-
-const { Template } = require("ejs");
-
 // var
 // var x = "hello";
 // var x = 2;  
@@ -44,7 +41,15 @@ undefined
 // Template String
 
 
-
+// const a ={
+//     var1:"a",
+// }
+// console.log(a.var1)
+// a.var1 = 2;
+// console.log(a.var1)
+// a.var1 = 1;
+console.log(var1)
+var var1
 
 
 

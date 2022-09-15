@@ -5,9 +5,10 @@ const app = express(); // now in executable state
 // express()-> creates express application
 
 app.get('',(req,res)=>{
-    console.log("data sent by browser",req.query.name);
-    res.send('Hello this is home page , welcome '+req.query.name);
+    console.log("data sent by browser", req.query.name);
+    res.send('Hello this is home page , welcome '+ req.query.name);
 });
+
 app.get('/about',(req,res)=>{
     res.send('Hello this is about page');
 });

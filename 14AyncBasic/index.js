@@ -22,7 +22,9 @@ setTimeout(()=>{
     console.log(a+b); 
 },2000)
 console.log(a+b); 
-//o/p -> 10
+//o/p ->
+//  10
+//  30 (after 2 sec)
 
 
 

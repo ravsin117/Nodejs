@@ -1,5 +1,5 @@
 package json file -> keeps details of our project 
-(code related details )
+(code related details)
 includes : 
 - version 
 - name 
@@ -14,6 +14,13 @@ npm init -> to generate package json file
 
 #Imp---------------------
 if node module is deleted -> run npm install (all the dependencies are recorded in package.json therfore npm install automatically install those packages)
+
+
+
+
+
+
+
 
 
 
